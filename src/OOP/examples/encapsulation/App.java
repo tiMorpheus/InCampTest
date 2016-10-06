@@ -13,6 +13,6 @@ public class App {
 
         // User.useProgLang = "PHP";         Nobody out of User class can't do this
 
-        System.out.println("User ");
+        System.out.println("User name is " + user.getFirstName() + ", he is study " + user.getUseProgLang());
      }
 }
