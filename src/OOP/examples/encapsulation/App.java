@@ -11,7 +11,7 @@ public class App {
         user.setAge(21);
         user.setUseProgLang("Java");
 
-        // User.useProgLang = "PHP";         Nobody out of User class can't do this
+        // user.useProgLang = "PHP";         Nobody out of User class can't do this
 
         System.out.println("User name is " + user.getFirstName() + ", he is study " + user.getUseProgLang());
      }
